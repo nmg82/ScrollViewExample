@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  DetailsScreenTest
-//
-//  Created by Nathan Gladson on 4/28/15.
-//  Copyright (c) 2015 NICUSA Tennesse Division. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {

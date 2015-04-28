@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:DetailsScreenTest.xcodeproj">
+      location = "self:ScrollViewExample.xcodeproj">
    </FileRef>
 </Workspace>
