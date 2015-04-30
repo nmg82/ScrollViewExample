@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -21,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="511"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TGW-bh-SsF" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="511"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="518"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zjH-3O-uVh">
                                                 <rect key="frame" x="20" y="20" width="280" height="21"/>
@@ -111,7 +112,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hpg-cw-YKk">
-                                                <rect key="frame" x="137" y="461" width="46" height="30"/>
+                                                <rect key="frame" x="137" y="468" width="46" height="30"/>
                                                 <color key="backgroundColor" red="0.18823529410000001" green="0.3921568627" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -165,7 +166,7 @@
                                             <constraint firstItem="5gM-hb-fsg" firstAttribute="width" secondItem="mSm-qG-XcR" secondAttribute="width" id="iyL-0g-Dmf"/>
                                             <constraint firstItem="5gM-hb-fsg" firstAttribute="centerX" secondItem="mSm-qG-XcR" secondAttribute="centerX" id="jmE-4Y-rNd"/>
                                             <constraint firstItem="eYm-By-Awk" firstAttribute="top" secondItem="wZF-cb-awa" secondAttribute="bottom" constant="8" id="krS-9e-a7s"/>
-                                            <constraint firstItem="hpg-cw-YKk" firstAttribute="top" relation="greaterThanOrEqual" secondItem="TsU-aL-faq" secondAttribute="bottom" constant="8" symbolic="YES" id="mVz-V1-fgt"/>
+                                            <constraint firstItem="hpg-cw-YKk" firstAttribute="top" relation="greaterThanOrEqual" secondItem="TsU-aL-faq" secondAttribute="bottom" constant="50" id="mVz-V1-fgt"/>
                                             <constraint firstItem="5gM-hb-fsg" firstAttribute="height" secondItem="Ycg-Ts-B9M" secondAttribute="height" id="n0V-M0-zcS"/>
                                             <constraint firstItem="5gM-hb-fsg" firstAttribute="height" secondItem="zjH-3O-uVh" secondAttribute="height" id="oj2-Or-gAi"/>
                                             <constraint firstItem="5gM-hb-fsg" firstAttribute="width" secondItem="9c2-Jf-1u1" secondAttribute="width" id="ooM-a3-B3U"/>
